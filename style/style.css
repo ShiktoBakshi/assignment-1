@@ -10,9 +10,10 @@ body{
 .c-font{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 } 
+
 .bg{
     background-image: url(/assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -202,13 +203,42 @@ padding: 20px;
   margin: 0 auto;
   background-image: url(/assets/handshake.jpg);
   background-position: center;
-border-radius: 16pxgit;
-    
+  border-radius: 16px;
+  
  }
- /* footer-start */
+ .hand-title{ 
+   margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    padding: 10px;
+   
+ }
+ .hand-p{
+    padding: 50px;
+  text-align: center;
+    color: white;
+    font-size: 16px;
+    opacity: 0.7;
+ }
+ 
+ input{
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: small;
+ }
+ .search{
+    box-sizing: border-box;
+   
+    align-items: center;
+    text-align: center; 
+ }
+
+/* footer */
  footer{
     margin: 10px;
-    background-color: #f7f8f8;
+    background-color: #f7f8f8 ;
     display: flex;
    align-items: center;
    text-align: center;
