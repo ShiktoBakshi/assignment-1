@@ -154,6 +154,30 @@ margin: 15px;
     box-sizing: border-box;
     border-radius: 16px;
  }
+ .main-2-title{
+
+    text-align: center;
+    margin: 48px 0;
+ }
+ .main-p2{
+   
+    text-align: center;
+    margin: 48px 0;
+ }
+ .current{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .html{
+
+ }
+ .css{
+
+ }
+ .js{
+
+ }
  /* footer-start */
  footer{
     display: flex;
